@@ -21,7 +21,7 @@ struct ContentView: View {
         VStack {
             HStack{
                 VStack(alignment: .leading){
-                    Text("Word Guessed: \(wordsGuessed   )")
+                    Text("Word Guessed : \(wordsGuessed   )")
                     Text("Word Missed: \(wordsMissed)")
                 }
                 Spacer()
